@@ -1,0 +1,70 @@
+body {
+    background: #ffffff;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/Proxima_nova/regular.woff2) format('woff2'),
+         url(../fonts/Proxima_nova/regular.woff) format('woff'),
+         url(../fonts/Proxima_nova/regular.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1100px;
+    height: 290px;
+    background:linear-gradient(to right, white 30%, #FFE5E5 0);
+    background-size:50px 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.item {
+    width: calc(100% / 3);
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+h1 {
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 24px;
+}
+p {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Proxima Nova';
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 65px;
+    width: 65px;
+    margin: 57px auto 21px auto;
+    background: #0066cc;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+i {
+    font-size: 25px;;
+    color: white;
+    margin: auto;
+    padding: 0;
+}
+.icon:hover,
+.icon:active,
+.icon:focus {
+    background: transparent;
+    box-shadow: 0 0 0 2pt #0066cc
+}
+.icon:hover i,
+.icon:active i,
+.icon:focus i {
+    color: #0066cc;
+}
